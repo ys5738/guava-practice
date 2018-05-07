@@ -1,0 +1,9 @@
+.idea
+*.iml
+/guava/target
+/guava/bin
+/guava/classpath
+/guava/project
+/guava/settings
+/guava/springBeans
+/guava/gitignore
