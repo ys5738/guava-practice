@@ -38,7 +38,9 @@ public class MutliMap {
         System.out.println(myMultimap.get("Fruits")); // [Bannana, Pear]
 
         // Remove all values for a key
-        myMultimap.removeAll("Fruits");
-        System.out.println(myMultimap.get("Fruits")); // [] (Empty Collection!)
+        myMultimap.removeAll("Fruitsasd");
+        System.out.println(myMultimap.get("asdFruits")); // [] (Empty Collection!)
+
+        System.out.println("asdasdsa");
     }
 }
