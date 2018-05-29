@@ -25,7 +25,7 @@ public class MutliMap {
         Collection<String> fruits = myMultimap.get("Fruits");
         System.out.println(fruits); // [Bannana, Apple, Pear]
 
-        Collection<String> vegetables = myMultimap.get("Vegetables");
+        Collection<String> vegetables = myMultimap.get("master");
         System.out.println(vegetables); // [Carrot]
 
         // 遍历Mutlimap
@@ -34,11 +34,11 @@ public class MutliMap {
         }
 
         // Removing a single value
-        myMultimap.remove("31Fruits", "Pear");
-        System.out.println(myMultimap.get("Fru1231its")); // [Bannana, Pear]
+        myMultimap.remove("master", "master");
+        System.out.println(myMultimap.get("master")); // [Bannana, Pear]
 
         // Remove all values for a key
-        myMultimap.removeAll("Fraaa12312312uits");
-        System.out.println(myMultimap.get("Fruits12312")); // [] (Empty Collection!)
+        myMultimap.removeAll("master");
+        System.out.println(myMultimap.get("master")); // [] (Empty Collection!)
     }
 }
