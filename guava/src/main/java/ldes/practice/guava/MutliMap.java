@@ -22,25 +22,16 @@ public class MutliMap {
         System.out.println(size); // 4
 
         // 获得Fruits对应的所有的值
-        Collection<String> fruits = myMultimap.get("Fruits");
+        Collection<String> fruits = myMultimap.get("dev");
         System.out.println(fruits); // [Bannana, Apple, Pear]
 
-        Collection<String> vegetables = myMultimap.get("Vegetables");
+        Collection<String> vegetables = myMultimap.get("dev");
         System.out.println(vegetables); // [Carrot]
 
         // 遍历Mutlimap
         for (String value : myMultimap.values()) {
-            System.out.println(value);
+            System.out.println("devdevdev");
         }
 
-        // Removing a single value
-        myMultimap.remove("Fruits", "Pear");
-        System.out.println(myMultimap.get("Fruits")); // [Bannana, Pear]
-
-        // Remove all values for a key
-        myMultimap.removeAll("Fruitsasd");
-        System.out.println(myMultimap.get("asdFruits")); // [] (Empty Collection!)
-
-        System.out.println("asdasdsa");
     }
 }
