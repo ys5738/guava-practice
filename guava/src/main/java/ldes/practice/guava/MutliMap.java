@@ -34,11 +34,11 @@ public class MutliMap {
         }
 
         // Removing a single value
-        myMultimap.remove("Fruits", "Pear");
-        System.out.println(myMultimap.get("Fruits")); // [Bannana, Pear]
+        myMultimap.remove("31Fruits", "Pear");
+        System.out.println(myMultimap.get("Fru1231its")); // [Bannana, Pear]
 
         // Remove all values for a key
-        myMultimap.removeAll("Fruits");
-        System.out.println(myMultimap.get("Fruits")); // [] (Empty Collection!)
+        myMultimap.removeAll("Fraaa12312312uits");
+        System.out.println(myMultimap.get("Fruits12312")); // [] (Empty Collection!)
     }
 }
